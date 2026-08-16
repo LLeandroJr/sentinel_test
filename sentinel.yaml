@@ -44,7 +44,7 @@ test-result-dir: ./build/test-results
 
 ## Paths or glob patterns to constrain mutation scope (default: none - entire source)
 ## Prefix a pattern with ! to exclude matching files (e.g. "!*/test/*")
-pattern: ["sample/src", "!*/test/*"]
+pattern: ["sample/src", "test/*"]
 
 ## Mutant selection strategy (default: uniform)
 ##   uniform  - one mutant per operator per source line
