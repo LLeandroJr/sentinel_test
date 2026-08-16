@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/sample/src/Stack.cpp
+stdexcept
+-
+Stack.hpp
+/workspace/sample/src/Stack.hpp
+
+/workspace/sample/src/Stack.hpp
+cstddef
+-
+vector
+-
+

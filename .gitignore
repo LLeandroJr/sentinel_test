@@ -1,0 +1,8 @@
+build/
+Testing/
+.sentinel_workspace/
+sentinel_output/
+src/calc
+test/CalculatorTest
+test/StackTest
+test/TokenizerTest

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/sample/src/Calculator.cpp
+Calculator.hpp
+/workspace/sample/src/Calculator.hpp
+stdexcept
+-
+
+/workspace/sample/src/Calculator.hpp
+string
+-
+vector
+-
+Stack.hpp
+/workspace/sample/src/Stack.hpp
+Tokenizer.hpp
+/workspace/sample/src/Tokenizer.hpp
+
+/workspace/sample/src/Stack.hpp
+cstddef
+-
+vector
+-
+
+/workspace/sample/src/Tokenizer.hpp
+string
+-
+vector
+-
+

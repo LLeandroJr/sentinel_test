@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtokenizer.a  CMakeFiles/tokenizer.dir/Tokenizer.cpp.o
+/usr/bin/ranlib libtokenizer.a

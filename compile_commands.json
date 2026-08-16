@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/workspace/sample/src",
+  "command": "/usr/bin/c++   -I/workspace/sample/src    -O0 -fprofile-arcs -ftest-coverage -std=gnu++17 -o CMakeFiles/calc.dir/main.cpp.o -c /workspace/sample/src/main.cpp",
+  "file": "/workspace/sample/src/main.cpp"
+},
+{
+  "directory": "/workspace/sample/src",
+  "command": "/usr/bin/c++   -I/workspace/sample/src    -O0 -fprofile-arcs -ftest-coverage -std=gnu++17 -o CMakeFiles/tokenizer.dir/Tokenizer.cpp.o -c /workspace/sample/src/Tokenizer.cpp",
+  "file": "/workspace/sample/src/Tokenizer.cpp"
+},
+{
+  "directory": "/workspace/sample/src",
+  "command": "/usr/bin/c++   -I/workspace/sample/src    -O0 -fprofile-arcs -ftest-coverage -std=gnu++17 -o CMakeFiles/calculator.dir/Calculator.cpp.o -c /workspace/sample/src/Calculator.cpp",
+  "file": "/workspace/sample/src/Calculator.cpp"
+},
+{
+  "directory": "/workspace/sample/src",
+  "command": "/usr/bin/c++   -I/workspace/sample/src    -O0 -fprofile-arcs -ftest-coverage -std=gnu++17 -o CMakeFiles/stack.dir/Stack.cpp.o -c /workspace/sample/src/Stack.cpp",
+  "file": "/workspace/sample/src/Stack.cpp"
+},
+{
+  "directory": "/workspace/sample/test",
+  "command": "/usr/bin/c++   -I/workspace/sample/src -isystem /workspace/sample/_deps/googletest-src/googletest/include -isystem /workspace/sample/_deps/googletest-src/googletest    -O0 -fprofile-arcs -ftest-coverage -std=gnu++17 -o CMakeFiles/CalculatorTest.dir/CalculatorTest.cpp.o -c /workspace/sample/test/CalculatorTest.cpp",
+  "file": "/workspace/sample/test/CalculatorTest.cpp"
+},
+{
+  "directory": "/workspace/sample/test",
+  "command": "/usr/bin/c++   -I/workspace/sample/src -isystem /workspace/sample/_deps/googletest-src/googletest/include -isystem /workspace/sample/_deps/googletest-src/googletest    -O0 -fprofile-arcs -ftest-coverage -std=gnu++17 -o CMakeFiles/TokenizerTest.dir/TokenizerTest.cpp.o -c /workspace/sample/test/TokenizerTest.cpp",
+  "file": "/workspace/sample/test/TokenizerTest.cpp"
+},
+{
+  "directory": "/workspace/sample/test",
+  "command": "/usr/bin/c++   -I/workspace/sample/src -isystem /workspace/sample/_deps/googletest-src/googletest/include -isystem /workspace/sample/_deps/googletest-src/googletest    -O0 -fprofile-arcs -ftest-coverage -std=gnu++17 -o CMakeFiles/StackTest.dir/StackTest.cpp.o -c /workspace/sample/test/StackTest.cpp",
+  "file": "/workspace/sample/test/StackTest.cpp"
+},
+{
+  "directory": "/workspace/sample/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++   -isystem /workspace/sample/_deps/googletest-src/googlemock/include -isystem /workspace/sample/_deps/googletest-src/googlemock -isystem /workspace/sample/_deps/googletest-src/googletest/include -isystem /workspace/sample/_deps/googletest-src/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /workspace/sample/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/workspace/sample/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/workspace/sample/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++   -I/workspace/sample/_deps/googletest-src/googlemock/include -I/workspace/sample/_deps/googletest-src/googlemock -isystem /workspace/sample/_deps/googletest-src/googletest/include -isystem /workspace/sample/_deps/googletest-src/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /workspace/sample/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/workspace/sample/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/workspace/sample/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++   -isystem /workspace/sample/_deps/googletest-src/googletest/include -isystem /workspace/sample/_deps/googletest-src/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /workspace/sample/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/workspace/sample/_deps/googletest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/workspace/sample/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++   -I/workspace/sample/_deps/googletest-src/googletest/include -I/workspace/sample/_deps/googletest-src/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /workspace/sample/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/workspace/sample/_deps/googletest-src/googletest/src/gtest-all.cc"
+}
+]

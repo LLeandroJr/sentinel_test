@@ -1,0 +1,71 @@
+# sentinel.yaml — sample project configuration
+#
+# Run `sentinel` from the sample/ directory:
+#   sentinel
+
+version: 1
+
+## Directory for output reports (default: none)
+output-dir: ./sentinel_output
+
+# --- Build & test options ---
+
+## Source root directory (default: .)
+source-dir: .
+
+## Shell command to build the source
+build-command: cmake -B build && cmake --build build -j
+
+## Path to directory containing compile_commands.json (default: .)
+compiledb-dir: ./build
+
+## Shell command to execute tests
+test-command: >-
+  build/test/StackTest --gtest_output=xml:build/test-results/StackTest.xml &&
+  build/test/TokenizerTest --gtest_output=xml:build/test-results/TokenizerTest.xml &&
+  build/test/CalculatorTest --gtest_output=xml:build/test-results/CalculatorTest.xml
+
+## Path to the test report directory
+test-result-dir: ./build/test-results
+
+## Test time limit in seconds (default: ceil(baseline x 1.5) + 5s; 0 = no limit)
+# timeout: 60
+
+# --- Mutation options ---
+
+## Source file extensions to mutate (default: cxx cpp cc c c++ cu)
+# extension:
+#   - cpp
+#   - cxx
+#   - cc
+#   - c
+#   - c++
+#   - cu
+
+## Paths or glob patterns to constrain mutation scope (default: none - entire source)
+## Prefix a pattern with ! to exclude matching files (e.g. "!*/test/*")
+pattern: ["sample/src", "!*/test/*"]
+
+## Mutant selection strategy (default: uniform)
+##   uniform  - one mutant per operator per source line
+##   random   - randomly sampled from all possible mutants
+##   weighted - samples more mutants from complex code
+# generator: uniform
+
+## Maximum number of mutants per source line (default: 1; 0 = unlimited)
+# mutants-per-line: 1
+
+## Mutation operators to use; omit to use all operators (default: all)
+# operator:
+#   - AOR  # Arithmetic Operator Replacement  (+, -, *, /)
+#   - BOR  # Bitwise Operator Replacement     (&, |, ^)
+#   - LCR  # Logical Connector Replacement    (&&, ||)
+#   - ROR  # Relational Operator Replacement  (<, >, ==, !=)
+#   - SDL  # Statement Deletion
+#   - SOR  # Shift Operator Replacement       (<<, >>)
+#   - UOI  # Unary Operator Insertion         (-x, !x)
+
+# --- Advanced options ---
+
+## lcov tracefiles; skip evaluation for uncovered mutants (default: none)
+# lcov-tracefile: []

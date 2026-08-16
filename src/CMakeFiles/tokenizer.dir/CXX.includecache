@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/sample/src/Tokenizer.cpp
+Tokenizer.hpp
+/workspace/sample/src/Tokenizer.hpp
+cctype
+-
+stdexcept
+-
+
+/workspace/sample/src/Tokenizer.hpp
+string
+-
+vector
+-
+

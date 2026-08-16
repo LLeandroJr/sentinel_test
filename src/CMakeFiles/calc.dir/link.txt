@@ -1,0 +1,1 @@
+/usr/bin/c++    -fprofile-arcs -ftest-coverage CMakeFiles/calc.dir/main.cpp.o  -o calc  libcalculator.a libstack.a libtokenizer.a 
